@@ -11,7 +11,7 @@ script:
 after_success:
         - docker build -t kamathn/multi-complex-client ./client
         - docker build -t kamathn/multi-complex-nginx ./nginx
-        - docker build -t kamathn/multi-complex-server./server
+        - docker build -t kamathn/multi-complex-server ./server
         - docker build -t kamathn/multi-complex-worker ./worker
         
 
